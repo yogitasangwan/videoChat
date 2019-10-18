@@ -1,4 +1,8 @@
 // Generate random room name if needed
+
+// mere comment krne ka wo matlab nhi tha!
+// bas hacktober fest kr rha tha mein
+
 if (!location.hash) {
     location.hash = Math.floor(Math.random() * 0xffffff).toString(16);
 }
